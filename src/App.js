@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path={process.env.PUBLIC_URL + "/"} element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/search" element={<SearchPage />} />
         </Routes>
         <Footer />
